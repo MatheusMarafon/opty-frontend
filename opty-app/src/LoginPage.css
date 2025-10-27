@@ -1,0 +1,125 @@
+.login-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.login-info-panel {
+    flex: 1;
+    background-color: #a8d5a1;
+    color: #2f2f2f;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-info-panel h1 {
+    font-size: 60px;
+    margin: 0 0 10px 0;
+}
+
+.login-info-panel p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.login-info-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.login-info-panel li {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.login-form-panel {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.login-form-panel h2 {
+    font-size: 32px;
+    color: #333;
+    margin: 0;
+}
+
+.login-form-panel .login-subtitle {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.login-form-panel form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form-panel label {
+    font-size: 14px;
+    color: #555;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.login-form-panel input[type="email"],
+.login-form-panel input[type="password"] {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.login-form-options .login-remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.login-form-options input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-form-options a {
+    color: #777;
+    text-decoration: none;
+}
+
+.login-form-panel button {
+    background-color: #a8d5a1;
+    color: #2f2f2f;
+    border: none;
+    padding: 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.login-signup-link {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+}
+
+.login-signup-link a {
+    color: #a8d5a1;
+    font-weight: bold;
+    text-decoration: none;
+}
